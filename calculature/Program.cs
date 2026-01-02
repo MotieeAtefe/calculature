@@ -30,8 +30,7 @@ namespace program
 
             if (operation == "*" || operation == "M" || operation == "m")
             {
-                int result = num0 * num1;
-                Console.WriteLine(num0 + "*" + num1 + "=" + result);
+                GetResult(num0, num1, operation, num0 + num1);
             }
 
             void GetNumberPrint(string order)
